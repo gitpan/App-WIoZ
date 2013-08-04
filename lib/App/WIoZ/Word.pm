@@ -1,6 +1,6 @@
 package App::WIoZ::Word;
 BEGIN {
-  $App::WIoZ::Word::VERSION = '0.001';
+  $App::WIoZ::Word::VERSION = '0.002';
 }
 use Moose;
 #use feature 'say';
@@ -52,7 +52,7 @@ has 'show' => (
 
 has 'angle' => (
     is => 'ro', isa => 'Num',
-    default => sub {return rand(1.0) > 0.85 ? -1 * 2 * atan2(1, 1) : 0;}
+    default => sub {return rand(1.0) > 0.85 ? -1 * 2 * atan2(1, 1) : '0.0';}
 );
 
 sub update_c {
