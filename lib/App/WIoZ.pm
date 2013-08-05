@@ -3,7 +3,7 @@ use warnings;
 package App::WIoZ;
 
 use vars '$VERSION';
-$VERSION = '0.002';
+$VERSION = '0.003';
 
 #use feature 'say';
 use Moose;
@@ -22,7 +22,7 @@ App::WIoZ - a perl word cloud generator
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 DESCRIPTION
 

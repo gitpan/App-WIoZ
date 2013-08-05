@@ -2,14 +2,14 @@ use strict;
 use warnings;
 package App::WIoZ;
 BEGIN {
-  $App::WIoZ::VERSION = '0.002';
+  $App::WIoZ::VERSION = '0.003';
 }
 
 1;
 
 package App::WIoZ::Point;
 BEGIN {
-  $App::WIoZ::Point::VERSION = '0.002';
+  $App::WIoZ::Point::VERSION = '0.003';
 }
 use Moose;
 
