@@ -1,6 +1,6 @@
 package App::WIoZ::Word;
-BEGIN {
-  $App::WIoZ::Word::VERSION = '0.003';
+{
+  $App::WIoZ::Word::VERSION = '0.004';
 }
 use Moose;
 #use feature 'say';

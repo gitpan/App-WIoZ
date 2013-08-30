@@ -2,36 +2,37 @@
 use strict;
 use warnings;
 
+use 5.006;
 
-
-use ExtUtils::MakeMaker 6.31;
+use ExtUtils::MakeMaker 6.30;
 
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'App::WIoZ create a SVG or PNG image of a word cloud from a simple text file',
-  'AUTHOR' => 'Yves Agostini <yvesago@cpan.org>',
-  'BUILD_REQUIRES' => {
-    'Test::More' => '0'
+  "ABSTRACT" => "App::WIoZ create a SVG or PNG image of a word cloud from a simple text file",
+  "AUTHOR" => "Yves Agostini <yvesago\@cpan.org>",
+  "BUILD_REQUIRES" => {
+    "Test::More" => 0
   },
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.31'
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'App-WIoZ',
-  'EXE_FILES' => [],
-  'LICENSE' => 'perl',
-  'NAME' => 'App::WIoZ',
-  'PREREQ_PM' => {
-    'Cairo' => '0',
-    'Color::Mix' => '0',
-    'Graphics::ColorNames' => '0',
-    'Math::PlanePath::HilbertCurve' => '0',
-    'Moose' => '0',
-    'vars' => '0'
+  "DISTNAME" => "App-WIoZ",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "App::WIoZ",
+  "PREREQ_PM" => {
+    "Cairo" => 0,
+    "Color::Mix" => 0,
+    "Graphics::ColorNames" => 0,
+    "Math::PlanePath::HilbertCurve" => 0,
+    "Moose" => 0,
+    "strict" => 0,
+    "warnings" => 0
   },
-  'VERSION' => '0.003',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "VERSION" => "0.004",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 
